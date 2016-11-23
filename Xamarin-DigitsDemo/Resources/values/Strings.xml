@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello&#160;</string>
+    <string name="ApplicationName">Xamarin-DigitsDemo</string>
+  
+  <!-- Login Page -->
+    <string name="LoginSuccessful">User registration successful!</string>
+    <string name="LoginFail">User registration Failed!</string>
+    <string name="userKey">Phone Number</string>
+    <string name="authButton">Login using Phone Number</string>
+  <!--End of Login Page-->
+  
+  <!-- Home Page -->
+   <string name="upload">Upload Contacts</string>
+   <string name="logout">Logout</string>
+   <string name="HomePage">HomeActivity</string>
+   <string name="BaseActivity">BaseActivity</string>
+  <!-- End of Home Page -->
+</resources>

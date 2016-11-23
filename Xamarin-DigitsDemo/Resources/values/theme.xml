@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <!--Splash Screen Theme-->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="android:windowBackground">@drawable/splash_logo</item>
+    </style>
+  
+     <!--Autuhenticating UI theme-->
+     <style name="LoginTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="android:textColorPrimary">#212121</item>
+       <item name="android:textColorSecondary">#757575</item>
+       <item name="android:windowBackground">@android:color/white</item>
+       <item name="android:textColorLink">#D32F2F</item>
+       <item name="dgts__accentColor">#7C4DFF</item><!--Purple color for buttons-->
+      </style>
+    
+    <!--AppCompat Activity Theme-->
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="windowNoTitle">true</item>
+      <item name="windowActionBar">false</item>
+      <item name="colorPrimary">#673AB7</item>
+      <item name="colorPrimaryDark">#512DA8</item>
+      <item name="colorAccent">#7C4DFF</item>
+      <item name="dgts__accentColor">#7C4DFF</item>
+  </style>
+</resources>
