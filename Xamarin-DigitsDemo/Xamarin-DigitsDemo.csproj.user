@@ -7,6 +7,6 @@
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup>
-    <ReferencePath>D:\veswanth\repos\Xamarin-DigitsDemo\Xamarin-DigitsDemo\lib\new\</ReferencePath>
+    <ReferencePath>D:\veswanth\repos\Xamarin-DigitsDemo\Xamarin-DigitsDemo\lib\newDll\</ReferencePath>
   </PropertyGroup>
 </Project>

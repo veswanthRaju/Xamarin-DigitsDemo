@@ -47,15 +47,15 @@
   <ItemGroup>
     <Reference Include="Crashlytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Crashlytics.dll</HintPath>
+      <HintPath>lib\newDll\Crashlytics.dll</HintPath>
     </Reference>
     <Reference Include="Digits, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Digits.dll</HintPath>
+      <HintPath>lib\newDll\Digits.dll</HintPath>
     </Reference>
     <Reference Include="Fabric.sdk, Version=1.3.13.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\Fabric.sdk.dll</HintPath>
+      <HintPath>lib\newDll\Fabric.sdk.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
@@ -65,7 +65,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="Twitter.core.sdk, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\new\Twitter.core.sdk.dll</HintPath>
+      <HintPath>lib\newDll\Twitter.core.sdk.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Animated.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Android.Support.Animated.Vector.Drawable.24.2.1\lib\MonoAndroid70\Xamarin.Android.Support.Animated.Vector.Drawable.dll</HintPath>
