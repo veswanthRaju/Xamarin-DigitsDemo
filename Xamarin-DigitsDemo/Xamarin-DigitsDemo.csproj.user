@@ -4,5 +4,9 @@
     <AndroidDesignerPreferredDevice>Nexus 5</AndroidDesignerPreferredDevice>
     <AndroidDesignerPreferredTheme>Theme.DeviceDefault</AndroidDesignerPreferredTheme>
     <SelectedDevice>Nexus 4 %28Marshmallow%29</SelectedDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>D:\veswanth\repos\Xamarin-DigitsDemo\Xamarin-DigitsDemo\lib\new\</ReferencePath>
   </PropertyGroup>
 </Project>

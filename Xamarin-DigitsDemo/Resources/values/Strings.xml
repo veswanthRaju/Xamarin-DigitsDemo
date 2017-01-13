@@ -7,7 +7,11 @@
     <string name="LoginSuccessful">User registration successful!</string>
     <string name="LoginFail">User registration Failed!</string>
     <string name="userKey">Phone Number</string>
-    <string name="authButton">Login using Phone Number</string>
+    <string name="authButton">Register with Phone Number</string>
+    <string name="twitterKey">Twitter key here</string>
+    <string name="twitterSecret">Twitter secret here</string>
+    <string name="fabricKey">Fabric key here</string>
+  
   <!--End of Login Page-->
   
   <!-- Home Page -->

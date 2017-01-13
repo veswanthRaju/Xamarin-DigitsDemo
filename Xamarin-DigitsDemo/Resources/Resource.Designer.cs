@@ -2996,14 +2996,14 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f08005d
 			public const int ApplicationName = 2131230813;
 			
-			// aapt resource value: 0x7f080065
-			public const int BaseActivity = 2131230821;
+			// aapt resource value: 0x7f080068
+			public const int BaseActivity = 2131230824;
 			
 			// aapt resource value: 0x7f08005c
 			public const int Hello = 2131230812;
 			
-			// aapt resource value: 0x7f080064
-			public const int HomePage = 2131230820;
+			// aapt resource value: 0x7f080067
+			public const int HomePage = 2131230823;
 			
 			// aapt resource value: 0x7f08005f
 			public const int LoginFail = 2131230815;
@@ -3266,11 +3266,14 @@ namespace Xamarin_DigitsDemo
 			// aapt resource value: 0x7f080054
 			public const int dgts_pin_code_terms = 2131230804;
 			
+			// aapt resource value: 0x7f080064
+			public const int fabricKey = 2131230820;
+			
 			// aapt resource value: 0x7f080029
 			public const int kit_name = 2131230761;
 			
-			// aapt resource value: 0x7f080063
-			public const int logout = 2131230819;
+			// aapt resource value: 0x7f080066
+			public const int logout = 2131230822;
 			
 			// aapt resource value: 0x7f080013
 			public const int search_menu_title = 2131230739;
@@ -3294,7 +3297,13 @@ namespace Xamarin_DigitsDemo
 			public const int tw__share_email_title = 2131230760;
 			
 			// aapt resource value: 0x7f080062
-			public const int upload = 2131230818;
+			public const int twitterKey = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int twitterSecret = 2131230819;
+			
+			// aapt resource value: 0x7f080065
+			public const int upload = 2131230821;
 			
 			// aapt resource value: 0x7f080060
 			public const int userKey = 2131230816;

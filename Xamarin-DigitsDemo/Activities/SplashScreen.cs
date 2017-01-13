@@ -9,13 +9,14 @@ namespace Xamarin_DigitsDemo.Activities
     [Activity(Label = "@string/ApplicationName", MainLauncher = true, Theme = "@style/SplashTheme", NoHistory = true)]
     public class SplashScreen : BaseActivity
     {
-        private const string TWITTER_KEY = "Twitter key here";
-        private const string TWITTER_SECRET = "Twitter secret here";
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+            TwitterAuthConfig authConfig = new TwitterAuthConfig
+                                                (
+                                                   GetString(Resource.String.twitterKey),
+                                                   GetString(Resource.String.twitterSecret)
+                                                 );
 
             Fabric.With(this, new TwitterCore(authConfig), 
                               new Digits.Builder().WithTheme(Resource.Style.LoginTheme).Build());
