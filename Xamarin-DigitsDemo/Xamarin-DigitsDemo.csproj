@@ -157,16 +157,6 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash_logo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="lib\Crashlytics.dll" />
-    <Content Include="lib\Digits.dll" />
-    <Content Include="lib\Fabric.sdk.dll" />
-    <Content Include="lib\newDll\Crashlytics.dll" />
-    <Content Include="lib\newDll\Digits.dll" />
-    <Content Include="lib\newDll\Fabric.sdk.dll" />
-    <Content Include="lib\newDll\Twitter.core.sdk.dll" />
-    <Content Include="lib\Twitter.core.sdk.dll" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.24.2.1\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
